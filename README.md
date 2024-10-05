@@ -16,7 +16,7 @@ A Unity package that enhances your workflow with Git integration features. This 
 2. Open your Unity project.
 3. Navigate to **Window > Package Manager**.
 4. Click the "+" button and select **"Add package from Git URL"**.
-5. Past `github.com/AnderSystems/Unity-Git-Intergration-Utilities.git` file from the cloned repository.
+5. Past `https://github.com/AnderSystems/Unity-Git-Intergration-Utilities.git` file from the cloned repository.
 
 ## Usage
 - The package will automatically prompt you to commit changes when closing the Unity Editor.
