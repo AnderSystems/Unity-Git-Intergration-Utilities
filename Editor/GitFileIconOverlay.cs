@@ -73,8 +73,9 @@ public class GitFileIconOverlay
         if (!iconCache.ContainsKey(iconFileName))
         {
             // Modify the path to use the package folder
-            string packagePath = Path.Combine("Packages", "Git Utilities", "Editor", "Icons", iconFileName);
-            string iconPath = Path.Combine(Application.dataPath, "../", packagePath); // "../" to go up from Assets
+            //string packagePath = Path.Combine("Library/PackageCache/com.andersystems.gitutilities/Editor", iconFileName);
+            string iconPath = Application.dataPath.Replace("/Assets", "/Library/PackageCache/com.andersystems.gitutilities/Editor/Icons/" + iconFileName);
+            UnityEngine.Debug.Log("iconPath: " + iconPath);
 
             if (File.Exists(iconPath))
             {

@@ -4,8 +4,7 @@
   "displayName": "Git Utilities",
   "description": "A Unity package that provides Git integration, including automatic commits and icon overlays for modified and added files.",
   "unity": "2020.3",
-  "dependencies": {
-  },
+  "dependencies": {},
   "keywords": [
     "git",
     "version control",
@@ -14,5 +13,6 @@
   "author": {
     "name": "Marco Matoso",
     "email": "socialander@gmail.com"
-  }
+  },
+  "_fingerprint": "aa6303e2ddfef9241107cb9afefeea4a1398ea00"
 }
