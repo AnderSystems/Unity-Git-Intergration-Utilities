@@ -1,6 +1,6 @@
 {
   "name": "com.andersystems.gitutilities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Git Utilities",
   "description": "A Unity package that provides Git integration, including automatic commits and icon overlays for modified and added files.",
   "author": "Ander Systems",
