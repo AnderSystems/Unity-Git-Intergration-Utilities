@@ -3,16 +3,18 @@
   "version": "1.0.0",
   "displayName": "Git Utilities",
   "description": "A Unity package that provides Git integration, including automatic commits and icon overlays for modified and added files.",
-  "unity": "2020.3",
-  "dependencies": {
-  },
+  "author": "Ander Systems",
+  "unity": "2020.1",
   "keywords": [
     "git",
     "version control",
     "unity"
   ],
-  "author": {
-    "name": "Marco Matoso",
-    "email": "socialander@gmail.com"
-  }
+  "dependencies": {
+    //   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnderSystems/Unity-Git-Intergration-Utilities.git"
+  },
+  "license": "MIT"
 }
